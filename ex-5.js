@@ -19,10 +19,9 @@ async function waitfor() {
     const wait = await getJohnProfile();
     console.log(wait);
   }
-  catch
+  catch (error)
   {
-    const wait = await getJohnProfile();
-    console.log(wait);
+    console.log(error);
   }
 }
 waitfor();
